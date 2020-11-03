@@ -27,7 +27,7 @@ jobs:
               run: |
                   node onlyOneExecute.js
               env:
-                  JD_COOKIE: ${{ secrets.pt_pin=jd_6e78be65734ec;pt_key=AAJflUYuADD3bO-sygdeyLn5Pc9V2-TpKVbn6YVnCk8tlGXVEtwsJBXUprC-zI7ZsIviBBXekKE }}
+                  JD_COOKIE: ${{ secrets.JD_COOKIE }}
                   LOCATION: 2
                   JD_DEBUG: ${{ secrets.JD_DEBUG }}
                   PUSH_KEY: ${{ secrets.PUSH_KEY }}
